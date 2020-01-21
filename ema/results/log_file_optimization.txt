@@ -1,0 +1,268 @@
+################### Running optimization benchmark ###################> ---------- Running MDO using MDF formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [3.29691829e-12]
+---------- Absolute error ----------- 
+Absolute error: 8.994479649970799e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 24
+Number of derivative evaluations: 22
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque value: 27.99198582499041
+Motor inertia value: 0.0008306906067445853
+Motor speed constraint: 3.296918293926865e-12
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510092], N_red = [4.85657632], W_mot_constr = [4.83696567e-07]
+---------- Absolute error ----------- 
+Absolute error: 8.361274517199035e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 14
+Number of derivative evaluations: 14
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque consistency constraint: -2.2972657021114173e-07
+Motor inertia consistency constraint: -3.2656590214126535e-11
+Motor speed constraint: 4.836965672438964e-07
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [-5.42763701e-09]
+---------- Absolute error ----------- 
+Absolute error: 8.976023480045114e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 9
+Number of derivative evaluations: 8
+------------------------------------- 
+Success in solving system consistency: True
+Motor inertia consistency constraint: -1.0315359677548486e-13
+Motor speed constraint: -5.4276370065053925e-09
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [1.13686838e-12]
+---------- Absolute error ----------- 
+Absolute error: 8.99453151959051e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 8
+Number of derivative evaluations: 7
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 1.2214304970795438
+Torque consistency constraint T_em_constr value: -1.1901590823981678e-12
+Motor speed constraint: 1.1368683772161603e-12
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [3.29691829e-12]
+---------- Absolute error ----------- 
+Absolute error: 8.994479649970799e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 139
+Number of derivative evaluations: 22
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque value: 27.99198582499041
+Motor inertia value: 0.0008306906067445853
+Motor speed constraint: 3.296918293926865e-12
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510092], N_red = [4.85657632], W_mot_constr = [4.83696567e-07]
+---------- Absolute error ----------- 
+Absolute error: 8.361274517199035e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 84
+Number of derivative evaluations: 14
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque consistency constraint: -2.2972657021114173e-07
+Motor inertia consistency constraint: -3.2656590214126535e-11
+Motor speed constraint: 4.836965672438964e-07
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [-5.42763701e-09]
+---------- Absolute error ----------- 
+Absolute error: 8.976023480045114e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 49
+Number of derivative evaluations: 8
+------------------------------------- 
+Success in solving system consistency: True
+Motor inertia consistency constraint: -1.0315359677548486e-13
+Motor speed constraint: -5.4276370065053925e-09
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [1.13686838e-12]
+---------- Absolute error ----------- 
+Absolute error: 8.99453151959051e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 36
+Number of derivative evaluations: 7
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 1.2214304970795438
+Torque consistency constraint T_em_constr value: -1.1901590823981678e-12
+Motor speed constraint: 1.1368683772161603e-12
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510096], N_red = [4.85657628], W_mot_constr = [-3.82082021e-06]
+---------- Absolute error ----------- 
+Absolute error: 4.412310428136834e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 757
+Number of derivative evaluations: 110
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque value: 27.99198521222121
+Motor inertia value: 0.0008306905064370373
+Motor speed constraint: -3.820820211331011e-06
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510113], N_red = [4.85657627], W_mot_constr = [-1.92560492e-07]
+---------- Absolute error ----------- 
+Absolute error: 1.3391178921295932e-07
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 168
+Number of derivative evaluations: 14
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque consistency constraint: 4.629843175507631e-08
+Motor inertia consistency constraint: 9.885594296279998e-12
+Motor speed constraint: -1.925604919961188e-07
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510286], N_red = [4.85657561], W_mot_constr = [-3.35810045e-05]
+---------- Absolute error ----------- 
+Absolute error: 1.8562607202454728e-06
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 88
+Number of derivative evaluations: 8
+------------------------------------- 
+Success in solving system consistency: True
+Motor inertia consistency constraint: 5.780415246936163e-10
+Motor speed constraint: -3.358100445893797e-05
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [1.70530257e-11]
+---------- Absolute error ----------- 
+Absolute error: 8.994527966876831e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 78
+Number of derivative evaluations: 7
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 1.22143049707957
+Torque consistency constraint T_em_constr value: -1.55964130499342e-12
+Motor speed constraint: 1.7053025658242404e-11
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510209], N_red = [4.85657536], W_mot_constr = [-8.74231979e-05]
+---------- Absolute error ----------- 
+Absolute error: 1.0895325912585463e-06
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 186
+Number of derivative evaluations: 0
+------------------------------------- 
+Success in solving system consistency: True
+Motor torque value: 27.99199039369493
+Motor inertia value: 0.0008306908004316694
+Motor speed constraint: -8.742319789689645e-05
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510109], N_red = [4.85657628], W_mot_constr = [1.33495632e-08]
+---------- Absolute error ----------- 
+Absolute error: 8.996041422904e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 74
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: False
+Motor torque consistency constraint: 0.0030544508415637495
+Motor inertia consistency constraint: -4.999999873465596e-07
+Motor speed constraint: 1.334956323262304e-08
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14510162], N_red = [4.85657578], W_mot_constr = [-4.78100404e-05]
+---------- Absolute error ----------- 
+Absolute error: 6.192837043172972e-07
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 587
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: True
+Motor inertia consistency constraint: -7.2418649852898365e-12
+Motor speed constraint: -4.7810040427975764e-05
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+M_mot = [7.14509852], N_red = [4.85657635], W_mot_constr = [-6.45076274e-05]
+---------- Absolute error ----------- 
+Absolute error: 2.480426892326193e-06
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 26
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 1.2214300019376707
+Torque consistency constraint T_em_constr value: 8.45010126582224e-06
+Motor speed constraint: -6.450762737131299e-05
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 

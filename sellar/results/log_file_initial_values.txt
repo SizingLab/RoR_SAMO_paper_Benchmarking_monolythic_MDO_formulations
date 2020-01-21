@@ -1,0 +1,113 @@
+################### Running robustness to initial values test ################### 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with full_analytic ------------ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with full_analytic ------------ 
+Max number of evaluations : 48
+Min number of evaluations : 20
+Mean number of evaluations : 28.55
+Median number of evaluations : 25.0
+Percentage of success : 40.0
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with full_analytic ------------ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with full_analytic ------------ 
+Max number of evaluations : 90
+Min number of evaluations : 6
+Mean number of evaluations : 27.413793103448278
+Median number of evaluations : 27.0
+Percentage of success : 57.99999999999999
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with full_analytic ------------ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with full_analytic ------------ 
+Max number of evaluations : 9
+Min number of evaluations : 5
+Mean number of evaluations : 6.875
+Median number of evaluations : 7.0
+Percentage of success : 48.0
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with full_analytic ------------ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with full_analytic ------------ 
+Max number of evaluations : 142
+Min number of evaluations : 6
+Mean number of evaluations : 15.74074074074074
+Median number of evaluations : 11.0
+Percentage of success : 54.0
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+Max number of evaluations : 316
+Min number of evaluations : 105
+Mean number of evaluations : 145.47058823529412
+Median number of evaluations : 135.0
+Percentage of success : 34.0
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+Max number of evaluations : 140
+Min number of evaluations : 35
+Mean number of evaluations : 85.55555555555556
+Median number of evaluations : 93.0
+Percentage of success : 54.0
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+Max number of evaluations : 45
+Min number of evaluations : 25
+Mean number of evaluations : 33.73913043478261
+Median number of evaluations : 31.0
+Percentage of success : 46.0
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with semi_analytic_fd ------------ 
+Max number of evaluations : 93
+Min number of evaluations : 30
+Mean number of evaluations : 57.52
+Median number of evaluations : 60.0
+Percentage of success : 50.0
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with monolythic_fd ------------ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with monolythic_fd ------------ 
+Max number of evaluations : 948
+Min number of evaluations : 208
+Mean number of evaluations : 294.3333333333333
+Median number of evaluations : 239.5
+Percentage of success : 36.0
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with monolythic_fd ------------ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with monolythic_fd ------------ 
+Max number of evaluations : 301
+Min number of evaluations : 43
+Mean number of evaluations : 118.0909090909091
+Median number of evaluations : 88.0
+Percentage of success : 22.0
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with monolythic_fd ------------ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with monolythic_fd ------------ 
+Max number of evaluations : 45
+Min number of evaluations : 25
+Mean number of evaluations : 36.52173913043478
+Median number of evaluations : 35.0
+Percentage of success : 46.0
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with monolythic_fd ------------ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with monolythic_fd ------------ 
+Max number of evaluations : 93
+Min number of evaluations : 30
+Mean number of evaluations : 58.31818181818182
+Median number of evaluations : 60.0
+Percentage of success : 44.0
+> ---------- Running MDO using MDF formulation and COBYLA optimizer with derivative_free ------------ 
+> ---------- Running MDO using MDF formulation and COBYLA optimizer with derivative_free ------------ 
+Max number of evaluations : 332
+Min number of evaluations : 184
+Mean number of evaluations : 240.66666666666666
+Median number of evaluations : 235.0
+Percentage of success : 42.0
+> ---------- Running MDO using IDF formulation and COBYLA optimizer with derivative_free ------------ 
+> ---------- Running MDO using IDF formulation and COBYLA optimizer with derivative_free ------------ 
+Max number of evaluations : 115
+Min number of evaluations : 73
+Mean number of evaluations : 91.93333333333334
+Median number of evaluations : 91.0
+Percentage of success : 30.0
+> ---------- Running MDO using HYBRID formulation and COBYLA optimizer with derivative_free ------------ 
+> ---------- Running MDO using HYBRID formulation and COBYLA optimizer with derivative_free ------------ 
+Max number of evaluations : 114
+Min number of evaluations : 70
+Mean number of evaluations : 81.25
+Median number of evaluations : 78.0
+Percentage of success : 32.0
+> ---------- Running MDO using NVH formulation and COBYLA optimizer with derivative_free ------------ 
+> ---------- Running MDO using NVH formulation and COBYLA optimizer with derivative_free ------------ 
+Max number of evaluations : 179
+Min number of evaluations : 56
+Mean number of evaluations : 88.17857142857143
+Median number of evaluations : 80.0
+Percentage of success : 56.00000000000001

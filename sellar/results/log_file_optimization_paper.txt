@@ -1,0 +1,252 @@
+################### Running optimization benchmark ###################> ---------- Running MDO using MDF formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [2.53161905e-14], z1 = 1.9776388834890897, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.7264398799454739e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 21
+Number of derivative evaluations: 20
+------------------------------------- 
+Success in solving system consistency: True
+y1 value: 3.1600000000875985
+y2 value: 3.755277767002001
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339396], x = [0.], z1 = 1.9776388846664816, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 6.088064719023123e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 27
+Number of derivative evaluations: 18
+------------------------------------- 
+Success in solving system consistency: True
+Y1 consistency constraint: 4.4714423275138415e-09
+Y2 consistency constraint: -2.1550139450710049e-10
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [0.], z1 = 1.9776388835159426, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.8259385115015903e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 6
+Number of derivative evaluations: 6
+------------------------------------- 
+Success in solving system consistency: True
+Y2 consistency constraint: -5.728750807065808e-14
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with full_analytic at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [1.36444391e-15], z1 = 1.9776388834659295, z2 = 1.0025265842330415e-12
+---------- Absolute error ----------- 
+Absolute error: 1.5896519656166674e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 7
+Number of derivative evaluations: 6
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 0.8079660226771314
+Consistency constraint c_cons value: 6.651834638660148e-11
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [2.53161905e-14], z1 = 1.9776388834890897, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.7264398799454739e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 105
+Number of derivative evaluations: 20
+------------------------------------- 
+Success in solving system consistency: True
+y1 value: 3.1600000000875985
+y2 value: 3.755277767002001
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339396], x = [0.], z1 = 1.9776388846664816, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 6.088064719023123e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 99
+Number of derivative evaluations: 18
+------------------------------------- 
+Success in solving system consistency: True
+Y1 consistency constraint: 4.4714423275138415e-09
+Y2 consistency constraint: -2.1550139450710049e-10
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [0.], z1 = 1.9776388835159426, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.8259385115015903e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 30
+Number of derivative evaluations: 6
+------------------------------------- 
+Success in solving system consistency: True
+Y2 consistency constraint: -5.728750807065808e-14
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [1.36444391e-15], z1 = 1.9776388834659295, z2 = 1.0025265842330415e-12
+---------- Absolute error ----------- 
+Absolute error: 1.5896519656166674e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 31
+Number of derivative evaluations: 6
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 0.8079660226771314
+Consistency constraint c_cons value: 6.651834638660148e-11
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [3.66601371e-15], z1 = 1.977638883718168, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 2.482568373096683e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 184
+Number of derivative evaluations: 31
+------------------------------------- 
+Success in solving system consistency: True
+y1 value: 3.1600000008594265
+y2 value: 3.7552777676730917
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [4.13075886], x = [0.112759], z1 = -1.7171462873839332, z2 = 0.13843518614265876
+---------- Absolute error ----------- 
+Absolute error: 0.9473649098890631
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 93
+Number of derivative evaluations: 14
+------------------------------------- 
+Success in solving system consistency: False
+Y1 consistency constraint: 4.562115130113398e-10
+Y2 consistency constraint: -1.508015656792594e-10
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [0.], z1 = 1.9776388835197718, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.839193242147985e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 30
+Number of derivative evaluations: 5
+------------------------------------- 
+Success in solving system consistency: True
+Y2 consistency constraint: -1.0129674876679928e-12
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and SLSQP optimizer with monolythic_fd at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [1.21762872e-14], z1 = 1.9776388834619298, z2 = 0.0
+---------- Absolute error ----------- 
+Absolute error: 1.6630261612249342e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 31
+Number of derivative evaluations: 5
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 0.8079660226997171
+Consistency constraint c_cons value: -2.8249402816982183e-11
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 
+> ---------- Running MDO using MDF formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339397], x = [4.99981835e-09], z1 = 1.9776388865588912, z2 = -4.2620580929806174e-11
+---------- Absolute error ----------- 
+Absolute error: 1.9692392605463738e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 233
+Number of derivative evaluations: 0
+------------------------------------- 
+Success in solving system consistency: True
+y1 value: 3.1600000182861487
+y2 value: 3.7552777751227695
+------------------------------------- 
+< ------------------------------------------- End of MDF ------------------------------------------- 
+ 
+> ---------- Running MDO using IDF formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [4.13075886], x = [0.11275779], z1 = -1.717141824810306, z2 = 0.13845697123511774
+---------- Absolute error ----------- 
+Absolute error: 0.9473649090408873
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 179
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: False
+Y1 consistency constraint: -1.7763568394002505e-15
+Y2 consistency constraint: 3.0531133177191805e-16
+------------------------------------- 
+< ------------------------------------------- End of IDF ------------------------------------------- 
+ 
+> ---------- Running MDO using HYBRID formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339393], x = [-3.9438111e-10], z1 = 1.9776388794254172, z2 = -2.1884146323521878e-09
+---------- Absolute error ----------- 
+Absolute error: 1.9234700943115968e-08
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 65
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: True
+Y2 consistency constraint: -1.3579621871429026e-08
+------------------------------------- 
+< ------------------------------------------- End of HYBRID ------------------------------------------- 
+ 
+> ---------- Running MDO using NVH formulation and COBYLA optimizer with derivative_free at scale 1.0 ------------ 
+---------- Post Analysis ------------ 
+obj = [3.18339395], x = [2.20883239e-09], z1 = 1.9776388836331253, z2 = -4.482339185350996e-09
+---------- Absolute error ----------- 
+Absolute error: 3.91651822084782e-09
+------------------------------------- 
+------- Number of evaluations ------- 
+Number of function evaluations: 83
+Number of derivative evaluations: 1
+------------------------------------- 
+Success in solving system consistency: True
+Normalized variable k_os value: 0.807966022721153
+Consistency constraint c_cons value: 5.114233481151587e-10
+------------------------------------- 
+< ------------------------------------------- End of NVH ------------------------------------------- 
+ 

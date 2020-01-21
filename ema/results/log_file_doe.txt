@@ -1,0 +1,57 @@
+################### Running robustness to doe test ################### 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 3
+Min number of evaluations : 3
+Mean number of evaluations : 3.0
+Median number of evaluations : 3.0
+Percentage of success : 46.0
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 6
+Min number of evaluations : 4
+Mean number of evaluations : 4.410256410256411
+Median number of evaluations : 4.0
+Percentage of success : 78.0
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 19
+Min number of evaluations : 4
+Mean number of evaluations : 6.548387096774194
+Median number of evaluations : 5.0
+Percentage of success : 62.0
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 6
+Min number of evaluations : 3
+Mean number of evaluations : 3.6808510638297873
+Median number of evaluations : 4.0
+Percentage of success : 94.0
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 18
+Min number of evaluations : 18
+Mean number of evaluations : 18.0
+Median number of evaluations : 18.0
+Percentage of success : 40.0
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 36
+Min number of evaluations : 24
+Mean number of evaluations : 26.076923076923077
+Median number of evaluations : 24.0
+Percentage of success : 78.0
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 135
+Min number of evaluations : 24
+Mean number of evaluations : 36.78378378378378
+Median number of evaluations : 25.0
+Percentage of success : 74.0
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 25
+Min number of evaluations : 11
+Mean number of evaluations : 16.177777777777777
+Median number of evaluations : 16.0
+Percentage of success : 90.0

@@ -1,0 +1,113 @@
+################### Running robustness to doe test ################### 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 4
+Min number of evaluations : 3
+Mean number of evaluations : 3.1363636363636362
+Median number of evaluations : 3.0
+Percentage of success : 44.0
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 6
+Min number of evaluations : 4
+Mean number of evaluations : 4.4324324324324325
+Median number of evaluations : 4.0
+Percentage of success : 74.0
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 39
+Min number of evaluations : 3
+Mean number of evaluations : 8.35
+Median number of evaluations : 5.5
+Percentage of success : 80.0
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with full_analytic at scale 2.0 ------------ 
+Max number of evaluations : 5
+Min number of evaluations : 2
+Mean number of evaluations : 3.6956521739130435
+Median number of evaluations : 4.0
+Percentage of success : 92.0
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 24
+Min number of evaluations : 18
+Mean number of evaluations : 18.692307692307693
+Median number of evaluations : 18.0
+Percentage of success : 52.0
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 36
+Min number of evaluations : 24
+Mean number of evaluations : 26.53846153846154
+Median number of evaluations : 24.0
+Percentage of success : 78.0
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 73
+Min number of evaluations : 24
+Mean number of evaluations : 35.52777777777778
+Median number of evaluations : 30.0
+Percentage of success : 72.0
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with semi_analytic_fd at scale 2.0 ------------ 
+Max number of evaluations : 26
+Min number of evaluations : 11
+Mean number of evaluations : 16.404255319148938
+Median number of evaluations : 15.0
+Percentage of success : 94.0
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+Max number of evaluations : 24
+Min number of evaluations : 18
+Mean number of evaluations : 18.52173913043478
+Median number of evaluations : 18.0
+Percentage of success : 46.0
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+Max number of evaluations : 72
+Min number of evaluations : 48
+Mean number of evaluations : 52.03030303030303
+Median number of evaluations : 48.0
+Percentage of success : 66.0
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+Max number of evaluations : 157
+Min number of evaluations : 34
+Mean number of evaluations : 63.78125
+Median number of evaluations : 50.0
+Percentage of success : 64.0
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and SLSQP optimizer with monolythic_fd at scale 2.0 ------------ 
+Max number of evaluations : 55
+Min number of evaluations : 23
+Mean number of evaluations : 35.53191489361702
+Median number of evaluations : 34.0
+Percentage of success : 94.0
+> ---------- Running MDA using MDF formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+> ---------- Running MDA using MDF formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+Max number of evaluations : 21
+Min number of evaluations : 11
+Mean number of evaluations : 15.5
+Median number of evaluations : 14.0
+Percentage of success : 28.000000000000004
+> ---------- Running MDA using IDF formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+> ---------- Running MDA using IDF formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+Max number of evaluations : 154
+Min number of evaluations : 31
+Mean number of evaluations : 81.4375
+Median number of evaluations : 70.5
+Percentage of success : 32.0
+> ---------- Running MDA using HYBRID formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+> ---------- Running MDA using HYBRID formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+Max number of evaluations : 19
+Min number of evaluations : 15
+Mean number of evaluations : 17.4
+Median number of evaluations : 18.0
+Percentage of success : 10.0
+> ---------- Running MDA using NVH formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+> ---------- Running MDA using NVH formulation and COBYLA optimizer with derivative_free at scale 2.0 ------------ 
+Max number of evaluations : 15
+Min number of evaluations : 13
+Mean number of evaluations : 14.314285714285715
+Median number of evaluations : 14.0
+Percentage of success : 70.0
