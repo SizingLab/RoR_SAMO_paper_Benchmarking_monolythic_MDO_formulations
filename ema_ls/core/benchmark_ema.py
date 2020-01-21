@@ -178,19 +178,23 @@ class BenchmarkEMA():
                 s = '> ---------- Running ' + prob_type + ' using ' + \
                     key + ' formulation and ' + optimizer + ' optimizer with ' + \
                     derivative_method + ' at scale ' + str(k_os) + ' ------------ \n'
-                max_num_compute = max(value)
-                min_num_compute = min(value)
-                mean_num_compute = np.mean(value)
-                median_num_compute = np.median(value)
-                percentage_of_success = len(value) / N * 100.
-                res = 'Max number of evaluations : ' + str(max_num_compute) + '\n' \
-                    'Min number of evaluations : ' + str(min_num_compute) + '\n' \
-                    'Mean number of evaluations : ' + str(mean_num_compute) + '\n' \
-                    'Median number of evaluations : ' + str(median_num_compute) + '\n' \
-                    'Percentage of success : ' + str(percentage_of_success) + '\n'
-                s += s + res
+                try:
+                    max_num_compute = max(value)
+                    min_num_compute = min(value)
+                    mean_num_compute = np.mean(value)
+                    median_num_compute = np.median(value)
+                    percentage_of_success = len(value) / N * 100.
+                    res = 'Max number of evaluations : ' + str(max_num_compute) + '\n' \
+                        'Min number of evaluations : ' + str(min_num_compute) + '\n' \
+                        'Mean number of evaluations : ' + str(mean_num_compute) + '\n' \
+                        'Median number of evaluations : ' + str(median_num_compute) + '\n' \
+                        'Percentage of success : ' + str(percentage_of_success) + '\n'
+                    s += s + res
+                except:
+                    s += s + 'All samples failed. \n'
+                    pass
                 logfile = open(log_file_name, 'a+')
-                logfile.writelines(s)  
+                logfile.writelines(s)
                 logfile.close()
                 print(s)
 

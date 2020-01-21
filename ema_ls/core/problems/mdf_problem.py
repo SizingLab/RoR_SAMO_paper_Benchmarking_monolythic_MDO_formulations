@@ -84,10 +84,10 @@ class MDFProblem(BenchmarkProblem):
     def check_success(self):
         # Custom verification of the optimization results
         tol = self.tol
-        T_em_real = (np.mean((self.problem['J_mot'] * self.problem['A_rms'] * \
-                    self.problem['N_red'] / self.problem['p'] + self.problem['F_ema'] * \
-                    self.problem['p'] / self.problem['N_red']) ** 2)) ** (1 / 2)
-        J_mot_real = self.problem['J_mot_ref'] * (abs(self.problem['T_em']) / \
+        T_em_real = (np.mean((self.problem['J_mot'] * self.problem['A_rms'] *
+                              self.problem['N_red'] / self.problem['p'] + self.problem['F_ema'] *
+                              self.problem['p'] / self.problem['N_red']) ** 2)) ** (1 / 2)
+        J_mot_real = self.problem['J_mot_ref'] * (abs(self.problem['T_em']) /
                                                   self.problem['T_em_ref']) ** (5.0 / 3.5)
 
         success = (str(self.problem['T_em'][0]) != 'nan') and (str(self.problem['T_em'][0]) != 'inf')
@@ -97,12 +97,17 @@ class MDFProblem(BenchmarkProblem):
         relative_error = abs(abs(self.problem['J_mot'][0]) - abs(J_mot_real)) / self.problem['J_mot']
         success = success and math.isclose(relative_error, 0., abs_tol=tol)
 
+        relative_error = abs(self.problem['V_final'])
+        success = success and math.isclose(relative_error, 0., abs_tol=tol)
+        relative_error = (abs(self.problem['X_final']) - 0.15) / 0.15
+        success = success and math.isclose(relative_error, 0., abs_tol=tol)
+
         if self.prob_type == 'MDO':
             if self.scale == 1.0:
                 relative_error = abs(abs(self.problem['M_mot']) - \
                                      abs(self.optimal_value)) / self.optimal_value
-                # * 100 due to scaler
-                success = success and math.isclose(relative_error, 0., abs_tol=tol*100)
+                # * 1000 due to scaler
+                success = success and math.isclose(relative_error, 0., abs_tol=tol * 1000)
             relative_error = abs(self.problem['W_mot_constr']) / self.problem['W_mot']
             success = success and math.isclose(relative_error, 0., abs_tol=tol)
 

@@ -75,11 +75,16 @@ class IDFProblem(BenchmarkProblem):
         relative_error = abs(self.problem['J_mot_c_constr']) / self.problem['J_mot']
         success = success and math.isclose(relative_error, 0., abs_tol=tol)
 
+        relative_error = abs(self.problem['V_final'])
+        success = success and math.isclose(relative_error, 0., abs_tol=tol)
+        relative_error = (abs(self.problem['X_final']) - 0.15) / 0.15
+        success = success and math.isclose(relative_error, 0., abs_tol=tol)
+
         if self.prob_type == 'MDO':
             if self.scale == 1.0:
                 relative_error = abs(abs(self.problem['M_mot']) - abs(self.optimal_value)) / self.optimal_value
-                # * 100 due to scaler
-                success = success and math.isclose(relative_error, 0., abs_tol=tol * 100)
+                # * 1000 due to scaler
+                success = success and math.isclose(relative_error, 0., abs_tol=tol * 1000)
             relative_error = abs(self.problem['W_mot_constr']) / self.problem['W_mot']
             success = success and math.isclose(relative_error, 0., abs_tol=tol)
 
